@@ -1,0 +1,42 @@
+.subsection .header {
+  color: red;
+}
+
+.subsection#preview {
+  color: blue;
+}
+
+img {
+  height: 450px;
+  width: 45robertson0px;
+}
+
+* {
+  outline: 2px solid red;
+}
+
+.subsection .header{
+  background-color: antiquewhite;
+  border-radius: 6px;
+  align-items: center;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.flex-container {
+  flex-direction: column;
+}
+
+.navigation {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content:center;
+  list-style: none;
+  margin: 0; 
+  background: white;
+}
+
+.navigation a{
+  text-decoration: none;
+  padding: 1em;
+}
